@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <header>
+        <h1>Workshop Registration</h1>
+        <p>More Actions</p>
+    </header>
+    <form>
+        <div class="forms">
+            <div class="info_inputs">
+                <p class="underline">Register now while seats are available</p>
+                <div class="inputs">
+                    <p class="required">First Name</p>
+                    <input type="text">
+                </div>
+                <div class="inputs">
+                    <p class="required">Last Name</p>
+                    <input type="text">
+                </div>
+                <div class="inputs">
+                    <p class="required">Company / Institution</p>
+                    <input type="text">
+                </div>
+                <div class="inputs">
+                    <p class="required">Address</p>
+                    <textarea></textarea>
+                </div>
+                <div class="inputs">
+                    <p>City</p>
+                    <input type="text">
+                </div>
+                <div class="inputs">
+                    <p>State / Province / Region</p>
+                    <select>
+                        <option>-Select-</option>
+                        <option value="iowa">Iowa</option>
+                        <option value="texas">Texas</option>
+                        <option value="alabama">Alabama</option>
+                        <option value="alaska">Alaska</option>
+                        <option value="colorado">Colorado</option>
+                        <option value="massachusetts">Massachusetts</option>
+                    </select>
+                </div>
+                <div class="inputs">
+                    <p>Country</p>
+                    <select>
+                        <option>-Select-</option>
+                        <option value="us">Usa</option>
+                        <option value="international">International</option>
+                    </select>
+                </div>
+                <div class="inputs">
+                    <p class="required">Email</p>
+                    <input type="text">
+                </div>
+                <div class="inputs">
+                    <p class="required">Phone Number</p>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="info_inputs">
+                <p class="underline">Lunch</p>
+                <div class="inputs">
+                    <p>Meal Preference</p>
+                    <select>
+                        <option value="vegeterian">Vegeterian</option>
+                        <option value="nonveg">Non Vegeterian</option>
+                    </select>
+                </div>
+                <p class="underline">Payment Details</p>
+                <div class="inputs">
+                    <p>Payment Mode</p>
+                    <div>
+                        <input type="checkbox" id="cash">
+                        <label for="cash">Cash</label><br>
+                        <input type="checkbox" id="cheque">
+                        <label for="cheque">Cheque</label><br>
+                        <input type="checkbox" id="draft">
+                        <label for="draft">Demand Draft</label>
+                    </div>
+                </div>
+                <div class="inputs">
+                    <p>DD / Cheque No.</p>
+                    <input type="text">
+                </div>
+                <div class="inputs">
+                    <p>Drawn On (Bank Name)</p>
+                    <input type="text">
+                </div>
+                <div class="inputs">
+                    <p>Payable at</p>
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+        <div class="form_control">
+            <input class="btn" type="submit" />
+            <input class="btn" type="submit" value="Clear" />
+        </div>
+    </form>
+</body>
+
+</html>
